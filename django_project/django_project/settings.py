@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--#401pgs&o^j@#*8hea*^uou5c!edem1z%2t@xtffugz5)^tcn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -139,6 +139,8 @@ EMAIL_USE_SSL = False
 
 EMAIL_HOST_USER ='saiprasas321@gmail.com'
 EMAIL_HOST_PASSWORD = 'mnrekkadkcllupia'  
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # LOGOUT_REDIRECT_URL = 'blog_home' 
 
